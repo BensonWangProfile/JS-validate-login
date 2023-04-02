@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.12.0/validate.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Validate</title>
+  </head>
+  <body class="bg-gray-300">
+    <section class="container mx-auto">
+      <div
+        class="flex flex-col w-[40%] mt-[100px] mx-auto p-8 gap-5 shadow-xl bg-white rounded-xl"
+      >
+        <!-- UserName -->
+        <div class="" id="username">
+          <h2 class="font-bold" id="姓名">User Name</h2>
+          <input
+            type="text"
+            name="username"
+            class="border rounded-md pl-3 w-full"
+            id="username-input"
+          />
+        </div>
+        <!-- Email -->
+        <div id="email">
+          <h2 class="font-bold">Email</h2>
+          <input
+            type="email"
+            name="email"
+            class="border rounded-md pl-3 w-full"
+            id="email-input"
+          />
+        </div>
+        <!-- Password -->
+        <div id="password">
+          <h2 class="font-bold">Password</h2>
+          <input
+            type="password"
+            name="password"
+            class="border rounded-md pl-3 w-full"
+          />
+        </div>
+        <!-- Confirm Password -->
+        <div id="confirm-password">
+          <h2 class="font-bold">Confirm Password</h2>
+          <input
+            type="password"
+            name="confirm-password"
+            class="border rounded-md pl-3 w-full"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="test.js"></script>
+</html>

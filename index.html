@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.12.0/validate.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-gray-300">
+    <form
+      id="main"
+      class="p-5 rounded-xl bg-white w-[500px] mx-auto mt-[200px] flex flex-col gap-5 shadow-xl"
+    >
+      <div class="flex flex-row justify-between">
+        <!-- Email -->
+        <div class="flex flex-col w-1/2 px-3">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            class="border rounded-md pl-2 p-2"
+            placeholder="Email"
+          />
+        </div>
+        <!-- Password -->
+        <div class="flex flex-col w-1/2 px-3">
+          <label for="Password">Password</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            class="border rounded-md pl-2 p-2"
+            placeholder="Password"
+          />
+        </div>
+      </div>
+      <!-- Confirm Password -->
+      <div class="flex flex-col px-3">
+        <label for="confirm-password">確認密碼</label>
+        <input
+          id="confirm-password"
+          name="確認密碼"
+          type="password"
+          class="border rounded-md pl-2 p-2"
+          placeholder="Confirm Password"
+        />
+      </div>
+    </form>
+  </body>
+  <script src="index.js"></script>
+</html>
