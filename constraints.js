@@ -1,4 +1,4 @@
-let constraints = {
+const constraints = {
   email: {
     presence: {
       message: "是必填的欄位",

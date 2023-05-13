@@ -18,4 +18,4 @@ function resetShowErrors(parentNode) {
   return;
 }
 
-export { showErrorsForInput };
+export { showErrorsForInput, resetShowErrors };
